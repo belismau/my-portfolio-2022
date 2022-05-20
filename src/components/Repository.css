@@ -1,0 +1,31 @@
+.InProgressBadge {
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 4px 8px;
+  background-color: transparent;
+  border: 1px solid rgb(82, 82, 82);
+}
+
+.Badge {
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-weight: 900;
+}
+
+.Repository-title {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 700;
+  color: #0f69da;
+}
+
+.Repository-content {
+  max-width: 500px;
+  line-height: 23px;
+}
+
+.Repository-period {
+  margin-top: 15px;
+  font-size: 11px;
+}
