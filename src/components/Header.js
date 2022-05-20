@@ -10,7 +10,7 @@ function Header() {
                     <button class="dropbtn"> Contact </button>
                     <div class="dropdown-content">
                     <a style={{ fontSize: 11, color: 'black' }} href='https://se.linkedin.com/in/belissabanovic'> LinkedIn </a>
-                    <a style={{ fontSize: 11, color: 'black' }} href='https://github.com/belismau'> Github </a>
+                    <a style={{ fontSize: 11, color: 'black' }} href='https://github.com/belismau'> GitHub </a>
                     <a style={{ fontSize: 11, color: 'black' }} href="mailto:belis99@msn.com"> E-mail </a>
                     </div>
                 </div>

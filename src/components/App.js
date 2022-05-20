@@ -40,7 +40,7 @@ function App() {
 
         <Repository
           title='Portfolio'
-          content='Portfolio for showing my work (this website).'
+          content='Portfolio for showing my work. Created to be able to present my skills to employers.'
           inProgress={false}
           badges={[
             badges.javascript,
@@ -48,7 +48,7 @@ function App() {
             badges.ui_design
           ]}
           period='2022'
-          link='https://github.com/belismau/Loginnn'
+          link='https://github.com/belismau/my-portfolio-2022'
         />
 
         <Footer />
