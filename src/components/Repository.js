@@ -1,8 +1,9 @@
 import './Repository.css'
 import Stack from './Stack';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 function Repository(props) {
-    const { title, content, inProgress, badges, period } = props;
+    const { title, content, inProgress, badges, period, link } = props;
 
     const InProgressBadge = () => {
         return (
@@ -24,7 +25,7 @@ function Repository(props) {
                     backgroundColor: backgroundColor
                 }}
             >
-                { props.data.name }
+                { props.data.label }
             </div>
         )
     }
@@ -32,8 +33,14 @@ function Repository(props) {
     return (
         <div className="Repository">
             <div>
-                <Stack>
-                    <p className="Repository-title"> {title} </p>
+                <Stack gap={15}>
+                    <div
+                        className='Repository-title-container'
+                        onClick={() => window.open(link)}
+                    >
+                        <p className="Repository-title"> {title} </p>
+                        <FaExternalLinkAlt color='#0f69da' fontSize={18} />
+                    </div>
                     <InProgressBadge />
                 </Stack>
                 

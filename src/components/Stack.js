@@ -1,5 +1,5 @@
 function Stack(props) {
-    const { children, vertical, gap } = props;
+    const { children, vertical, gap, justifyContent } = props;
 
     return (
         <div
@@ -7,7 +7,8 @@ function Stack(props) {
                 display: 'flex',
                 flexDirection: vertical ? 'column' : 'row',
                 alignItems: 'center',
-                gap: gap ? gap : 8
+                gap: gap ? gap : 8,
+                justifyContent: justifyContent ? justifyContent : null
             }}
         >
             { children }
