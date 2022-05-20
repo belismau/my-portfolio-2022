@@ -2,4 +2,21 @@
   font-size: 13px;
   margin-top: 20px;
   color: rgb(66, 66, 66);
+  margin: 0;
+}
+
+.Footer-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+  .Footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }

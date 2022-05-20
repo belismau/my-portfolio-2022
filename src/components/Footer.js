@@ -6,7 +6,7 @@ function Footer() {
         return (
             <div
                 style={{
-                margin: '120px 0 0 0',
+                margin: '80px 0 0 0',
                 height: 2,
                 width: '100%',
                 background: '#eee'
@@ -17,10 +17,10 @@ function Footer() {
     return (
         <div className="Footer">
             <FooterLineBreak />
-            <Stack justifyContent='space-between'>
+            <div className='Footer-container'>
                 <p className='Footer-content'> © 2022 by Belis Sabanovic. All rights reserved. </p>
                 <p className='Footer-content'> Website created with React.js by me. </p>
-            </Stack>   
+            </div>   
         </div>
     )
 }
